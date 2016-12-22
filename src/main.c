@@ -15,7 +15,6 @@ int main(int argc, char **argv)
 	struct dirent	*ent;
 	char			*dname;
 	int				attr;
-	struct termios	term;
 	struct stat		stats;
 
 	dname = (argc > 1) ? argv[1] : ".";
